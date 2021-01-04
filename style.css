@@ -9,6 +9,8 @@ body{
 .first-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    border-bottom: 10px;
+    
     
 
 }
@@ -17,6 +19,7 @@ body{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+   
 }
 .half-wight img{
     width: 100%;
@@ -39,4 +42,37 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.third{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    float: left;
+}
+.changes{
+    margin-left: 5%;
+}
+
+
+.shadow{
+    background-color: white;
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 10px;
+     height: 60%;
+}
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient( 180deg, lightsalmon, orange);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+    
+
+footer p{
+    text-align-last: center
 }
